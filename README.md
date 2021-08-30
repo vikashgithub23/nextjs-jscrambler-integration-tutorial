@@ -1,2 +1,1 @@
-# nextjs-jscrambler-integration-tutorial
-Demo app for protecting Next.js apps with Jscrambler.
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
