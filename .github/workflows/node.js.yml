@@ -15,13 +15,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-    - run: npm install
-    - run: npm i
-    - name: install jscrambler api client
-    -  run: npm i jscrambler --save-dev
-    - name: build code after protection
-    - run: npm run build 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install
+      - run: npm i
+      - name: install jscrambler api client
+      - run: npm i jscrambler --save-dev
+      - name: build code after protection
+      - run: npm run build 
