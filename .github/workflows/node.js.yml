@@ -20,13 +20,8 @@ jobs:
       with:
         node-version: '14'
     - run: npm install
-    - run: npm test
-  protectJscrambler:
-    name: Jscrambler 
-    runs-on: ubuntu-latest
-    steps:    
-
-      - name: install jscrambler api client
-        run: npm i jscrambler --save-dev
-      - name: build code after protection
-        run: npm run build 
+    - run: npm i
+    - name: install jscrambler api client
+    -  run: npm i jscrambler --save-dev
+    - name: build code after protection
+    - run: npm run build 
