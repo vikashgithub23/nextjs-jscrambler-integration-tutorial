@@ -1,0 +1,22 @@
+{
+  "keys": {
+    "accessKey": "E3C2C8E05508435CC8817307CE51B38773360B84",
+    "secretKey": "C88F95E97D298A93288516405796A19156EE7A45"
+  },
+  "applicationId": "619e0233e53ca700196a596b",
+  "params": [
+    {
+      "name": "identifiersRenaming"
+    },
+    {
+      "name": "whitespaceRemoval"
+    }
+  ],
+  "areSubscribersOrdered": false,
+  "useRecommendedOrder": true,
+  "jscramblerVersion": "7.1",
+  "tolerateMinification": true,
+  "profilingDataMode": "off",
+  "useAppClassification": true,
+  "browsers": {}
+}
