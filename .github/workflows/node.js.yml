@@ -25,9 +25,7 @@ jobs:
     name: Jscrambler 
     runs-on: ubuntu-latest
     steps:    
-    
-      - name: install de
-      - run: npm i
+
       - name: install jscrambler api client
         run: npm i jscrambler --save-dev
       - name: build code after protection
