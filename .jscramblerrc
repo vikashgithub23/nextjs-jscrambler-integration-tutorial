@@ -4,6 +4,11 @@
     "secretKey": "C88F95E97D298A93288516405796A19156EE7A45"
   },
   "applicationId": "619e0233e53ca700196a596b",
+  "filesSrc": [
+   "./.next/**/*.html",
+   "./.next/**/*.js"
+ ],
+ "filesDest": "./",
   "params": [
     {
       "name": "identifiersRenaming"
